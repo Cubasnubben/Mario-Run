@@ -123,7 +123,7 @@ const collisionSound = new Audio(
 );
 
 const backgroundMusic = new Audio();
-backgroundMusic.src = "Audio/mixkit-game-level-music-689.wav";
+backgroundMusic.src = "Audio/panic-182769.mp3";
 backgroundMusic.volume = 0.3;
 
 function showGameOver() {
