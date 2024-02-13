@@ -127,12 +127,12 @@ backgroundMusic.src = "Audio/panic-182769.mp3";
 backgroundMusic.volume = 0.3;
 
 function showGameOver() {
-  const fontSize = 90 * scaleRatio;
+  const fontSize = 40 * scaleRatio;
   ctx.font = `${fontSize}px Brush Script MT`;
   ctx.fillStyle = "HotPink";
   const x = canvas.width / 3.3;
   const y = canvas.height / 2;
-  ctx.fillText("Game Over", x, y);
+  ctx.fillText("Inte tokigt, men vi kör igen.... ", x, y);
 }
 
 // window.addEventListener("keydown", (event) => {
