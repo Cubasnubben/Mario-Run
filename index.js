@@ -123,7 +123,7 @@ const collisionSound = new Audio(
 );
 
 const backgroundMusic = new Audio();
-backgroundMusic.src = "Audio/Yarns_melloBidrag.mp3";
+backgroundMusic.src = "Audio/mixkit-game-level-music-689.wav";
 backgroundMusic.volume = 0.3;
 
 function showGameOver() {
