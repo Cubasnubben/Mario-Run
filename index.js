@@ -165,12 +165,12 @@ function reset() {
 }
 
 function startText() {
-  const fontSize = 40 * scaleRatio;
+  const fontSize = 22 * scaleRatio;
   ctx.font = `${fontSize}px Courier New`;
   ctx.fillStyle = "Teal";
   const x = canvas.width / 5;
   const y = canvas.height / 2;
-  ctx.fillText(" Tryck för att Spela", x, y);
+  ctx.fillText(" Tryck enter för att Spela & Hoppa", x, y);
 
   backgroundMusic.load();
   backgroundMusic.loop = true;
