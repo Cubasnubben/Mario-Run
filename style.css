@@ -4,6 +4,13 @@
     margin: 0;
 }
 
+body {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
 canvas{
     border: .5px solid rgb(144, 144, 144);
     box-shadow: 2px 2px 9px black;
